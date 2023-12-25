@@ -1,0 +1,39 @@
+{
+    "name": "rtn-apple-calendar",
+    "version": "0.0.1",
+    "description": "Integrate Apple Calendar into your React Native app",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+      "js",
+      "android",
+      "ios",
+      "rtn-apple-calendar.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+    ],
+    "keywords": ["react-native", "ios", "android"],
+    "repository": "https://github.com/git-decadent/rtn-apple-calendar",
+    "author": "Yahor Skarabahatau egor.skorobogatov@gmail.com (https://github.com/git-decadent)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/git-decadent/rtn-apple-calendar/issues"
+    },
+    "homepage": "https://github.com/git-decadent/rtn-apple-calendar#readme",
+    "devDependencies": {},
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+    "codegenConfig": {
+      "name": "RTNAppleCalendarSpec",
+      "type": "modules",
+      "jsSrcsDir": "js",
+      "android": {
+        "javaPackageName": "com.rtncapple_calendar"
+      }
+    }
+  }
